@@ -5,8 +5,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
 
-#https://towardsdatascience.com/k-nearest-neighbours-introduction-to-machine-learning-algorithms-18e7ce3d802a
-
 df = pd.read_csv('\Work\Github DL\DeepLearnings\Data\Iris.csv')
 df = df.drop(['SepalWidthCm','PetalWidthCm'],axis=1)
 
